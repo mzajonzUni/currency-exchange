@@ -21,7 +21,7 @@ public class Currency {
 
     @Override
     public String toString() {
-        return "CurrencyMessage{" +
+        return "Currency{" +
                 "currency='" + currency + '\'' +
                 ", timestamp=" + timestamp +
                 ", bid=" + bid +

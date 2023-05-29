@@ -1,5 +1,6 @@
 package pl.zajonz.currencyexchange.controller;
 
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -23,7 +24,7 @@ public class ExchangeController {
     }
 
     @GetMapping("/convert")
-    public Exchange convertCurrency(@RequestBody  Query query){
+    public Exchange convertCurrency(@RequestBody Query query){
         return exchangeService.convertCurrency(query);
     }
 

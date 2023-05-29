@@ -7,6 +7,7 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Spy;
 import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.test.context.ActiveProfiles;
 import pl.zajonz.currencyexchange.model.AvailableCurrencies;
 import pl.zajonz.currencyexchange.model.Currency;
 import pl.zajonz.currencyexchange.model.Exchange;
